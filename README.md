@@ -24,7 +24,7 @@ web site</a>:
 <ol>
 <li><b>Date</b>: Date in format dd/mm/yyyy </li>
 <li><b>Time</b>: time in format hh:mm:ss </li>
-<li>Note: this archive contains 2075259 measurements gathered in a house located in *Sceaux (7km of Paris, France)*, so I set the timezone as Europe/France </li>
+<li>Note: this archive contains 2075259 measurements gathered in a house located in *Sceaux (7km of Paris, France)*, so I set the timezone as Europe/Paris </li>
 <li><b>Global_active_power</b>: household global minute-averaged active power (in kilowatt) </li>
 <li><b>Global_reactive_power</b>: household global minute-averaged reactive power (in kilowatt) </li>
 <li><b>Voltage</b>: minute-averaged voltage (in volt) </li>
