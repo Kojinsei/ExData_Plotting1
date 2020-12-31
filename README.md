@@ -24,6 +24,7 @@ web site</a>:
 <ol>
 <li><b>Date</b>: Date in format dd/mm/yyyy </li>
 <li><b>Time</b>: time in format hh:mm:ss </li>
+<li>Note: this archive contains 2075259 measurements gathered in a house located in *Sceaux (7km of Paris, France)*, so I set the timezone as Europe/France </li>
 <li><b>Global_active_power</b>: household global minute-averaged active power (in kilowatt) </li>
 <li><b>Global_reactive_power</b>: household global minute-averaged reactive power (in kilowatt) </li>
 <li><b>Voltage</b>: minute-averaged voltage (in volt) </li>
@@ -34,11 +35,6 @@ web site</a>:
 </ol>
 
 ## Loading the data
-
-
-
-
-
 When loading the dataset into R, please consider the following:
 
 * The dataset has 2,075,259 rows and 9 columns. First
@@ -89,26 +85,27 @@ GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
 
 
-The four plots that you will need to construct are shown below. 
-
+# Assingments Results
 
 ### Plot 1
-
-
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-2](plot1.png) 
 
 
 ### Plot 2
-
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](plot2.png) 
 
 
 ### Plot 3
-
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](plot3.png) 
 
 
 ### Plot 4
+![plot of chunk unnamed-chunk-5](plot4.png) 
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
-
+# Referecnes
+- [Filter with Date data](https://blog.exploratory.io/filter-with-date-function-ce8e84be680)
+  - To filter with date data using lubridate package
+- [R tick data : merging date and time into a single object](https://stackoverflow.com/questions/11609252/r-tick-data-merging-date-and-time-into-a-single-object)
+  - To merge Date column and Time column set format as POSIXlt
+- [Add a legend to a base R chart](https://www.r-graph-gallery.com/119-add-a-legend-to-a-plot.html)
+  - How to add a legend and use its option parameters (e.g., lty = "n")
