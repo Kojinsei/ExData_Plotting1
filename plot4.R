@@ -73,6 +73,7 @@ png(
 par(mfcol = c(2, 2))
 
 with(plotData, {
+   #Top-left plot
    plot(
       DateTime,
       Global_active_power,
@@ -82,6 +83,7 @@ with(plotData, {
       main = ""
    )
    
+   #Bottom-left plot
    plot(
       DateTime,
       Sub_metering_1,
@@ -101,6 +103,7 @@ with(plotData, {
       bty = "n"
    )
    
+   #Top-right plot
    plot(
       DateTime,
       Voltage,
@@ -110,6 +113,7 @@ with(plotData, {
       ylab = "Voltage"
    )
    
+   #Bottom-right plot
    plot(
       DateTime,
       Global_reactive_power,
