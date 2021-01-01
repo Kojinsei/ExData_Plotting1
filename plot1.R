@@ -7,6 +7,9 @@
 ## Assignment Description -----------------------------------------------------
 ## Exploratory Data Analysis
 
+## Clean up the environment
+rm(list = ls())
+
 # Load the packages required and set the current working directory-------------
 requiredPkgs <- c("tidyverse", "lubridate")
 sapply(requiredPkgs,

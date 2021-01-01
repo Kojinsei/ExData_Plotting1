@@ -6,6 +6,8 @@
 
 ## Assignment Description -----------------------------------------------------
 ## Exploratory Data Analysis
+## Clean up the environment
+rm(list = ls())
 
 # Load the packages required and set the current working directory-------------
 ## Load the packages required
