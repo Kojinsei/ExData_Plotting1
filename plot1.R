@@ -8,7 +8,6 @@
 ## Exploratory Data Analysis
 
 # Load the packages required and set the current working directory-------------
-## Load the packages required
 requiredPkgs <- c("tidyverse", "lubridate")
 sapply(requiredPkgs,
        require,
@@ -67,9 +66,8 @@ par(mfcol = c(1, 1))
 hist(
    plotData$Global_active_power,
    xlab = "Global Active Power (kilowatts)",
-   main = "Global Active Powr",
+   main = "Global Active Power",
    col = "red"
 )
 dev.off()
-
 # End of Script ---------------------------------------------------------------
